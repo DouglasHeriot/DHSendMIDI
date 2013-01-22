@@ -257,7 +257,8 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DHSendMIDI/DHSendMIDI-Prefix.pch";
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path /Library/Frameworks ~/Library/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/. /Library/Frameworks ~/Library/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -267,7 +268,8 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DHSendMIDI/DHSendMIDI-Prefix.pch";
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path /Library/Frameworks ~/Library/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/. /Library/Frameworks ~/Library/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
