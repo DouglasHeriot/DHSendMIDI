@@ -1,0 +1,3 @@
+[submodule "MIDIApps"]
+	path = MIDIApps
+	url = https://github.com/DouglasHeriot/MIDIApps.git
