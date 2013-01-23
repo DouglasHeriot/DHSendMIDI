@@ -159,7 +159,7 @@ int main(int argc, char * const *argv)
 		if(requiredLength > 1)
 		{
 			data[1] = atoi(argv[1]) & 0x7F;
-			[message setDataByte2:data[2]];
+			[message setDataByte2:data[1]];
 		}
 		
 		
