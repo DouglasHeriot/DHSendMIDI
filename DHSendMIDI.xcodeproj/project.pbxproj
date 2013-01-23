@@ -59,6 +59,8 @@
 		A513A69E16AF2F47000DF615 /* DHSendMIDI.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DHSendMIDI.1; sourceTree = "<group>"; };
 		A513A6A516AF2FFE000DF615 /* SnoizeMIDI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SnoizeMIDI.xcodeproj; path = MIDIApps/Frameworks/SnoizeMIDI/SnoizeMIDI.xcodeproj; sourceTree = "<group>"; };
 		A581999516AF696900325CF3 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		A58199A516AF717B00325CF3 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.md; sourceTree = SOURCE_ROOT; };
+		A58199A616AF717B00325CF3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +108,6 @@
 			isa = PBXGroup;
 			children = (
 				A513A69A16AF2F47000DF615 /* main.m */,
-				A513A69E16AF2F47000DF615 /* DHSendMIDI.1 */,
 				A513A69C16AF2F47000DF615 /* Supporting Files */,
 			);
 			path = DHSendMIDI;
@@ -115,6 +116,9 @@
 		A513A69C16AF2F47000DF615 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A58199A616AF717B00325CF3 /* README.md */,
+				A58199A516AF717B00325CF3 /* LICENSE.md */,
+				A513A69E16AF2F47000DF615 /* DHSendMIDI.1 */,
 				A513A69D16AF2F47000DF615 /* DHSendMIDI-Prefix.pch */,
 			);
 			name = "Supporting Files";
