@@ -195,7 +195,30 @@ void printVersion(void)
 
 void printHelp(void)
 {
-	printf("DHSendMIDI");
+	printf("\n"
+		   "Usage:	DHSendMIDI [options] byte1 [byte2]\n\n"
+		   "Options:\n"
+		   "	--note-on, -n               Note On\n"
+		   "	--note-off, -m              Note Off\n"
+		   "	--aftertouch, -a            Aftertouch\n"
+		   "	--control-change, --cc, -c  Control Change\n"
+		   "	--program-change, --pc, p   Program Change (only 1 byte of data)\n"
+		   "	--channel-pressure, --pressure, -s     Channel Pressure (only 1 byte of data)\n"
+		   "	--pitch-wheel, --pitch, -w  Pitch Wheel (2 bytes, making a 14-bit value)\n"
+		   "\n"
+		   "	--channel, -c               Channel 1-16\n"
+		   "	--destination, -d           Destination device\n"
+		   "	                            Example: to send to IAC Driver, Bus 1, use\n"
+		   "	                            --destination \"Bus 1\"\n"
+		   "	                            Defaults to all destinations\n"
+		   "\n"
+		   "	--verbose, -v               Prints message being sent\n"
+		   "\n"
+		   "	--version, -V               Displays version\n"
+		   "	--help, -h                  Displays this help\n"
+		   "\n"
+		   "Without any options, DHSendMIDI defaults to control change messages, on channel 1, to all destinations.\n"
+		   "\n");
 }
 
 

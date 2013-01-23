@@ -16,4 +16,15 @@ Note it uses SnoizeMIDI from a submodule, so clone recursively:
 
 DHSendMIDI has a BSD-style license. See the file LICENSE.md
 
+Also includes SnoizeMIDI
+
+### SnoizeMIDI
+
+Copyright © 2001-2010, Kurt Revis.  All rights reserved.
+
+Small modifications by Douglas Heriot, 2011.
+http://github.com/krevis/MIDIApps/
+http://github.com/DouglasHeriot/MIDIApps/
+
+See LICENSE.md for more details
 
