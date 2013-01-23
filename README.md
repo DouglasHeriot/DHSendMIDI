@@ -8,7 +8,7 @@ Note that sometimes there could be a little delay as OS X wakes up its internal 
 
 ## Sounds awesome!
 
-There’s no prebuilt downloads just yet (I’ll get to that soon when it’s ready for general use)
+Great! You can download a zip of the [latest binary](http://douglasheriot-static.s3.amazonaws.com/DHSendMIDI/downloads/DHSendMIDI%201.0.zip) to start playing right away! (Version 1.0)
 
 ## Usage
 
