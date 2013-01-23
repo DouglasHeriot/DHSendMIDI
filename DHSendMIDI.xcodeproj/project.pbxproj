@@ -293,6 +293,7 @@
 				A513A6A416AF2F47000DF615 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
