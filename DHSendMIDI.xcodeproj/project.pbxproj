@@ -10,7 +10,7 @@
 		A513A69816AF2F47000DF615 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A513A69716AF2F47000DF615 /* Foundation.framework */; };
 		A513A69B16AF2F47000DF615 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A513A69A16AF2F47000DF615 /* main.m */; };
 		A513A69F16AF2F47000DF615 /* DHSendMIDI.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A513A69E16AF2F47000DF615 /* DHSendMIDI.1 */; };
-		A581997716AF68E100325CF3 /* libSnoizeMIDIiOS copy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A581997616AF68C600325CF3 /* libSnoizeMIDIiOS copy.a */; };
+		A581997716AF68E100325CF3 /* libSnoizeMIDI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A581997616AF68C600325CF3 /* libSnoizeMIDI.a */; };
 		A581999916AF69B400325CF3 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A581999516AF696900325CF3 /* CoreMIDI.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,7 +68,7 @@
 			files = (
 				A513A69816AF2F47000DF615 /* Foundation.framework in Frameworks */,
 				A581999916AF69B400325CF3 /* CoreMIDI.framework in Frameworks */,
-				A581997716AF68E100325CF3 /* libSnoizeMIDIiOS copy.a in Frameworks */,
+				A581997716AF68E100325CF3 /* libSnoizeMIDI.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +125,7 @@
 			children = (
 				A513A6AD16AF2FFE000DF615 /* SnoizeMIDI.framework */,
 				A513A6B616AF306B000DF615 /* libSnoizeMIDIiOS.a */,
-				A581997616AF68C600325CF3 /* libSnoizeMIDIiOS copy.a */,
+				A581997616AF68C600325CF3 /* libSnoizeMIDI.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -197,10 +197,10 @@
 			remoteRef = A513A6B516AF306B000DF615 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		A581997616AF68C600325CF3 /* libSnoizeMIDIiOS copy.a */ = {
+		A581997616AF68C600325CF3 /* libSnoizeMIDI.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = "libSnoizeMIDIiOS copy.a";
+			path = libSnoizeMIDI.a;
 			remoteRef = A581997516AF68C600325CF3 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -276,7 +276,10 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DHSendMIDI/DHSendMIDI-Prefix.pch";
-				HEADER_SEARCH_PATHS = "\"$BUILT_PRODUCTS_DIR\"";
+				HEADER_SEARCH_PATHS = (
+					"\"$BUILT_PRODUCTS_DIR\"",
+					"\"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts\"",
+				);
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/. /Library/Frameworks ~/Library/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_LDFLAGS = "-ObjC";
@@ -289,7 +292,10 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DHSendMIDI/DHSendMIDI-Prefix.pch";
-				HEADER_SEARCH_PATHS = "\"$BUILT_PRODUCTS_DIR\"";
+				HEADER_SEARCH_PATHS = (
+					"\"$BUILT_PRODUCTS_DIR\"",
+					"\"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts\"",
+				);
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/. /Library/Frameworks ~/Library/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_LDFLAGS = "-ObjC";
