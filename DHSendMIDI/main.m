@@ -88,6 +88,9 @@ int main(int argc, char * const *argv)
 				case O_CHANNEL:
 					channel = atoi(optarg);
 					
+					if(channel == 0)
+						channel = 1; // you probably meant 1
+					
 					// Make sure it’s within bounds 1-16
 					channel -= 1;
 					channel %= 16;
