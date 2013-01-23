@@ -1,5 +1,7 @@
 # DHSendMIDI
 
+#### By [Douglas Heriot](http://douglasheriot.com/)
+
 DHSendMIDI is a simple tool for sending MIDI messages from an OS X command line.
 
 There’s no complicated config files to set up or anything – it just simple sends MIDI messages for you!
@@ -9,6 +11,13 @@ Note that sometimes there could be a little delay as OS X wakes up its internal 
 ## Sounds awesome!
 
 Great! You can download a zip of the [latest binary](http://douglasheriot-static.s3.amazonaws.com/DHSendMIDI/downloads/DHSendMIDI%201.0.zip) to start playing right away! (Version 1.0)
+
+Feel free to [contact me](http://douglasheriot.com/#contact) and let me know what you think!
+
+### What about a nice user interface?
+
+Glad you asked – you might like my (commercial) Mac app, [MIDI Friend](http://douglasheriot.com/midifriend/).
+
 
 ## Usage
 
